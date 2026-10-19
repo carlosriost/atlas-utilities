@@ -1,0 +1,260 @@
+[
+{
+"id": "caldera-6",
+"nombre": "Caldera 6",
+"descripcion": "Pirotubular 900 BHP, quemador dual Webster (gas natural y ACPM), control Siemens LMV52, economizador",
+"area": "calderas",
+"conteo": {
+"equipos": 82,
+"materiales": 185,
+"repuestos": 227,
+"compatibilidad": 62,
+"mantenimiento": 107,
+"condiciones": 167,
+"reglas_homologacion": 99,
+"contradicciones": 32,
+"seguridad": 80,
+"preguntas": 69
+},
+"documentos": 72,
+"paginas": 2098
+},
+{
+"id": "caldera-5",
+"nombre": "Caldera 5 PowerMaster",
+"descripcion": "Pirotubular 500 BHP, quemador General Bruciatori gas natural y biogás, tren Kromschröder, impulsión de biogás",
+"area": "calderas",
+"conteo": {
+"equipos": 33,
+"materiales": 125,
+"repuestos": 123,
+"compatibilidad": 57,
+"mantenimiento": 76,
+"condiciones": 136,
+"reglas_homologacion": 72,
+"contradicciones": 19,
+"seguridad": 55,
+"preguntas": 38
+},
+"documentos": 94,
+"paginas": 1917
+},
+{
+"id": "caldera-900",
+"nombre": "Caldera 900 BHP Colmaquinas",
+"descripcion": "Dossier de fabricación ASME Sección I (2025): materiales SA, soldadura, END, PWHT e hidrostática",
+"area": "calderas",
+"conteo": {
+"equipos": 1,
+"materiales": 40,
+"compatibilidad": 2,
+"mantenimiento": 6,
+"condiciones": 27,
+"reglas_homologacion": 16,
+"contradicciones": 4,
+"seguridad": 1,
+"preguntas": 8
+},
+"documentos": 1,
+"paginas": 62
+},
+{
+"id": "mycom-n160",
+"nombre": "Compresor MYCOM N-160 (NH₃)",
+"descripcion": "Unidad de tornillo N-160-VMD-E-TS, 142.800 kcal/h, con válvulas Danfoss y Hansen, tablero MYPRO y variador WEG",
+"area": "maquinaria",
+"conteo": {
+"equipos": 14,
+"materiales": 142,
+"repuestos": 233,
+"compatibilidad": 36,
+"mantenimiento": 89,
+"condiciones": 139,
+"reglas_homologacion": 67,
+"contradicciones": 16,
+"seguridad": 47,
+"preguntas": 51
+},
+"documentos": 2,
+"paginas": 1110
+},
+{
+"id": "mypro",
+"nombre": "Controladores MYPRO (Mycom 1 a 4)",
+"descripcion": "Manuales del controlador MYPRO TOUCH+ de los compresores Mycom 1, 2, 3 y 4",
+"area": "maquinaria",
+"conteo": {
+"equipos": 1,
+"materiales": 7,
+"repuestos": 47,
+"compatibilidad": 3,
+"mantenimiento": 11,
+"condiciones": 14,
+"reglas_homologacion": 11,
+"contradicciones": 3,
+"seguridad": 11,
+"preguntas": 3
+},
+"documentos": 4,
+"paginas": 696
+},
+{
+"id": "haffmans",
+"nombre": "Planta de CO₂ Haffmans",
+"descripcion": "Recuperación de CO₂: filtro de carbón, secadores y lista de materiales 08.7228",
+"area": "maquinaria",
+"conteo": {
+"equipos": 13,
+"materiales": 173,
+"repuestos": 237,
+"compatibilidad": 15,
+"mantenimiento": 16,
+"condiciones": 34,
+"reglas_homologacion": 13,
+"contradicciones": 7,
+"seguridad": 4,
+"preguntas": 11
+},
+"documentos": 3,
+"paginas": 29
+},
+{
+"id": "torre-co2",
+"nombre": "Torre purificadora de CO₂",
+"descripcion": "Union PUR-A 1500",
+"area": "maquinaria",
+"conteo": {
+"equipos": 6,
+"materiales": 9,
+"compatibilidad": 1,
+"mantenimiento": 6,
+"condiciones": 21,
+"reglas_homologacion": 2,
+"contradicciones": 2,
+"seguridad": 13,
+"preguntas": 4
+},
+"documentos": 4,
+"paginas": 14
+},
+{
+"id": "ir-e110n",
+"nombre": "Compresor Ingersoll Rand E110N",
+"descripcion": "Compresor de tornillo exento de aceite con VSD",
+"area": "maquinaria",
+"conteo": {
+"equipos": 1,
+"materiales": 35,
+"repuestos": 128,
+"compatibilidad": 21,
+"mantenimiento": 37,
+"condiciones": 33,
+"reglas_homologacion": 18,
+"contradicciones": 10,
+"seguridad": 14,
+"preguntas": 13
+},
+"documentos": 8,
+"paginas": 690
+},
+{
+"id": "fs-curtis",
+"nombre": "Compresor FS Curtis NxHE",
+"descripcion": "Compresor de tornillo lubricado 55–75 kW",
+"area": "maquinaria",
+"conteo": {
+"equipos": 1,
+"materiales": 4,
+"repuestos": 19,
+"compatibilidad": 1,
+"mantenimiento": 14,
+"condiciones": 16,
+"reglas_homologacion": 3,
+"contradicciones": 3,
+"seguridad": 6,
+"preguntas": 7
+},
+"documentos": 6,
+"paginas": 198
+},
+{
+"id": "secador-ir",
+"nombre": "Secador Ingersoll Rand DA3000IN",
+"descripcion": "Secador de aire comprimido",
+"area": "maquinaria",
+"conteo": {
+"equipos": 1,
+"materiales": 11,
+"repuestos": 29,
+"compatibilidad": 11,
+"mantenimiento": 10,
+"condiciones": 16,
+"reglas_homologacion": 13,
+"contradicciones": 1,
+"seguridad": 10,
+"preguntas": 10
+},
+"documentos": 1,
+"paginas": 52
+},
+{
+"id": "ptar",
+"nombre": "PTAR 30 L/s",
+"descripcion": "Planta de tratamiento de aguas residuales: reactores IC y CIRCOX, DAF, deshidratación, biogás",
+"area": "residuales",
+"conteo": {
+"equipos": 65,
+"materiales": 337,
+"repuestos": 261,
+"compatibilidad": 93,
+"mantenimiento": 120,
+"condiciones": 196,
+"reglas_homologacion": 105,
+"contradicciones": 31,
+"seguridad": 81,
+"preguntas": 74
+},
+"documentos": 265,
+"paginas": 3570
+},
+{
+"id": "terciario",
+"nombre": "Tratamiento terciario",
+"descripcion": "Microfiltración Iso-Disc, ultrafiltración y ósmosis inversa para reúso de agua",
+"area": "residuales",
+"conteo": {
+"equipos": 35,
+"materiales": 83,
+"repuestos": 56,
+"compatibilidad": 34,
+"mantenimiento": 43,
+"condiciones": 71,
+"reglas_homologacion": 38,
+"contradicciones": 18,
+"seguridad": 27,
+"preguntas": 34
+},
+"documentos": 168,
+"paginas": 1001
+},
+{
+"id": "desmineralizador",
+"nombre": "Desmineralizador",
+"descripcion": "Filtros pulidores catión y anión, regeneración con HCl y NaOH al 4 %",
+"area": "desmineralizador",
+"conteo": {
+"equipos": 17,
+"materiales": 90,
+"repuestos": 40,
+"compatibilidad": 54,
+"mantenimiento": 37,
+"condiciones": 54,
+"reglas_homologacion": 37,
+"contradicciones": 17,
+"seguridad": 17,
+"preguntas": 25
+},
+"documentos": 79,
+"paginas": 286
+}
+]

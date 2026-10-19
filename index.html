@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas Utilities</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Base de conocimiento verificable de materiales, repuestos y normas de los equipos de Utilities de Cervecería Unión (Bavaria). Cada dato cita documento y página.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230e5f63'/%3E%3Ctext x='16' y='22' font-size='17' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3EAU%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/atlas.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="in">
+    <a class="marca" href="#/">Atlas Utilities <small>Cervecería Unión</small></a>
+    <nav class="nav" id="nav">
+      <a href="#/equipos">Sistemas</a>
+      <a href="#/materiales">Materiales</a>
+      <a href="#/repuestos">Repuestos</a>
+      <a href="#/compatibilidad">Compatibilidad</a>
+      <a href="#/reglas">Reglas</a>
+      <a href="#/contradicciones">Contradicciones</a>
+      <a href="#/expediente">Expediente</a>
+      <a href="#/banco">Banco de pruebas</a>
+      <a href="#/documentos">Documentos</a>
+      <a href="#/verificacion">Verificación</a>
+    </nav>
+    <button class="buscar-boton" id="abrir-buscar" type="button" aria-label="Buscar">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      Buscar <kbd>Ctrl K</kbd>
+    </button>
+    <button class="tema" id="tema" type="button" aria-label="Cambiar tema claro u oscuro"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+  </div>
+</header>
+
+<main class="pagina" id="app" aria-live="polite"></main>
+
+<div class="velo" id="velo"></div>
+<div class="paleta" id="paleta" role="dialog" aria-label="Buscar en Atlas">
+  <input id="paleta-input" type="search" placeholder="Busca un material, norma, número de parte, tag o equipo… (p. ej. A193 B7, 74915792, NBR amoníaco)" autocomplete="off">
+  <div class="resultados" id="paleta-res"></div>
+  <div class="pie"><span>↑↓ moverse</span><span>↵ abrir</span><span>Esc cerrar</span><span id="paleta-estado"></span></div>
+</div>
+<aside class="panel" id="panel" aria-label="Fuente citada">
+  <div class="cab"><div><h3 id="panel-titulo"></h3><div class="ruta" id="panel-ruta"></div></div><button class="cerrar" id="panel-cerrar" aria-label="Cerrar">✕</button></div>
+  <div class="texto" id="panel-texto"></div>
+  <div class="pie" id="panel-pie"></div>
+</aside>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+ "redacciones": 78,
+ "fecha": "2026-10-19",
+ "documentos": 707,
+ "paginas": 11774,
+ "paginas_ocr": 1093,
+ "registros": 6167,
+ "por_archivo": {
+  "equipos": 270,
+  "materiales": 1241,
+  "repuestos": 1400,
+  "compatibilidad": 390,
+  "mantenimiento": 572,
+  "condiciones": 924,
+  "reglas_homologacion": 494,
+  "contradicciones": 163,
+  "seguridad": 366,
+  "preguntas": 347
+ },
+ "descartados": 0,
+ "exactos": 6120,
+ "aproximados": 47,
+ "cifras_formato_distinto": 21,
+ "paginas_citadas": 1378,
+ "docs_citados": 322,
+ "terminos_indexados": 145597,
+ "texto_completo": false
+}
